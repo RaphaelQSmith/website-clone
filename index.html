@@ -29,7 +29,8 @@
             align-items: center;
             max-width: auto;
             margin: 0 auto;
-            padding: 15px 0;
+            padding: 6px 0;
+
         }
 
         .logo {
@@ -114,6 +115,29 @@
             color: #333;
         }
 
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            max-height: 100px;
+            background-color: black;
+            color: white;
+            font-size: small;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        
         /* Responsive Styles */
         @media (max-width: 768px) {
             nav {
@@ -150,7 +174,8 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <h1>888spectate</h1>
+                <a href="index.html"><h1>888spectate</h1></a>
+                
             </div>
             
             <button class="mobile-menu-btn">☰</button>
@@ -164,6 +189,14 @@
             </nav>
         </div>
     </header>
+    <footer class="footer-container">
+        <div class="footer-logo">
+            <img src="./img/evoke-logo-lock-up.svg" alt="">
+        </div>
+        <div class="all-rights-reserved">
+            <p>2025 888spectate All Rights Reserved</p>
+        </div>
+    </footer>
 
     <script>
         // Mobile menu toggle
