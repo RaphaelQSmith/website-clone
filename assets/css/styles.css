@@ -111,6 +111,33 @@
             color: #333;
         }
 
+        .main-container 
+             {
+            width: 100%;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: center;
+            text-align: center
+        }
+        .horizontal-line{
+            width: 7%;
+            margin: 0 auto;
+        }
+        .who{
+             width: 100%;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: center;
+            text-align: center
+        }
+
+        .why{
+            width: 100%;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: center;
+            text-align: center
+        }
         .footer-container {
             display: flex;
             justify-content: space-between;
