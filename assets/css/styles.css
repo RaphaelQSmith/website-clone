@@ -160,6 +160,41 @@
             justify-content: center;
             text-align: center
         }
+
+        .benefits{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .join-us{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 30px;
+        }
+
+        .main-content__article-benefits{
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        .main-content__list-unordered {
+            margin: 0;
+            padding-left: 30px;
+        }
+
+        .main-content__list-bullet{
+            margin-bottom: 10px;
+        }
+
         .footer-container {
             display: flex;
             justify-content: space-between;
