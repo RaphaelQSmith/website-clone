@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Header Example</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container-nav">
+            <div class="logo">
+            <a href="index.html"><h1>888spectate</h1></a>      
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+            <div id="main-nav">
+            <ul>
+                <li><a href="./index.html">Careers</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./privacy.html">Privacy</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container_header-banner">
+        <div class="container_header-logo"></div>
+    </section>
+    <section class="container-contact">
+        <h2 class="container_contact-title">CONTACT US</h2>   
+        <hr class="horizontal-line"> 
+    </section>
+    <section class="container_contact-details">
+       <div>
+           <h2>ADDRESS</h2>
+           <p>888spectate <br>
+               Heather House<br>
+               Heather Road<br>
+               Sandyford Industrial Estate<br>
+               Dublin 18<br>
+               D18 X2P7
+           </p>
+       </div>
+       <div>
+           <h2 class="curr_positions">EMAIL</h2>
+           <p></p>
+       </div>
+    </section>
+
+
+
+    <footer class="footer-container">
+        <div class="footer-logo">
+            <img src="./assets/img/evoke-logo-lock-up.svg" alt="">
+        </div>
+        <div class="all-rights-reserved">
+            <p>2025 888spectate All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.querySelector('.mobile-menu-btn');
+        const nav = document.querySelector('nav');
+        
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
