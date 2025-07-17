@@ -6,6 +6,11 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
+        .main_body{
+            margin: 0 auto 50px auto;
+            
+        }
+
         /* Header Styles */
         header {
             background-color: #000000;
@@ -216,6 +221,39 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+        }
+
+        .container__main-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-bottom: 30px;
+        }
+
+        .container__main-content p{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+        }
+
+        .container__main-header{
+            text-align: center;
+            font-size: 20px;
+            font-family: bold;
+            margin:25px;
+        }
+
+        .container_header{
+            font-family: Bold;
+            font-size: 20px;
+            text-align: center;
+        }
+        .container_main-block{
+            max-width: 700px;
         }
 
         .footer-container {
