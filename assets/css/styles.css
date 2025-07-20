@@ -149,6 +149,7 @@
             display: flex;
             height: 35vh;
             align-items: center;
+            text-align: center;
             justify-content: center;
             color: white;
             background: center / cover no-repeat url('../img//background.jpg')
@@ -156,14 +157,38 @@
         .who h1{
             text-align: center;
             margin: 30px 0px;
+            font-weight: bolder;
+        }
+        .who p{
+            flex: 1;
+            text-wrap: wrap;
+            max-width: 900px;
         }
 
         .why{
             width: 100%;
-            margin: 0 auto;
+            margin: 20px auto;
             align-items: center;
             justify-content: center;
-            text-align: center
+            text-align: center;
+        }
+
+        .why_cards{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .why_cards-item{
+            padding: 50px 50px;
+            position: relative;
+            max-width: 600px
+        }
+        .why_cards-item p{
+            padding-top:20px;
         }
 
         .benefits{
